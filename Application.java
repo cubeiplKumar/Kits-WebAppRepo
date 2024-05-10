@@ -22,4 +22,17 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+	#feature201 worked by Vivek  for HDFC Application Oct.2023
+	 public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+}
 }
