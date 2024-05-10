@@ -22,6 +22,7 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+
 	# feature202 changes by Priya on Oct2023
 	public void display2(int a) {
     System.out.println("Method with a single parameter: " + a);
@@ -37,6 +38,19 @@ public class MyClass {
     
     // calling method with the single parameter
     obj.display2(24);
+
+	#feature201 worked by Vivek  for HDFC Application Oct.2023
+	 public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+
   }
 }
 }
