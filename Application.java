@@ -22,4 +22,21 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+	# feature202 changes by Priya on Oct2023
+	public void display2(int a) {
+    System.out.println("Method with a single parameter: " + a);
+  }
+
+  public static void main(String[] args) {
+    
+    // create an object of Main
+    Main obj = new Main();
+
+    // calling method with no parameter
+    obj.display1();
+    
+    // calling method with the single parameter
+    obj.display2(24);
+  }
+}
 }
